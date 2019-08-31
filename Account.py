@@ -67,7 +67,7 @@ def showall():
         for i in db:
                 print(i)
 
-print("Enter Choice \n1. Add New \n2. View Data ")
+print("Enter Choice \n1. Add New \n2. View Data \3.Exit")
 choice=int(input(""))
 if choice==1:
         #Name,Place,Mobile,AccNo,Pass,Email
@@ -99,3 +99,8 @@ if choice==1:
                         print("Wrong Password! Try again")
 if choice==2:
         showall()
+
+
+if Choice==3:
+	exit()
+
